@@ -365,7 +365,7 @@
 			uiBar 			= new UserInterface();
 			addChild		(uiBar);
 			uiBar.uIBar		= "single";
-			uiBar.playerOne(0);
+			uiBar.PlayerOne(0);
 			positionElement	(uiBar, 0, 0);
 		}
 		

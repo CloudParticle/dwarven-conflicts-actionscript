@@ -6,6 +6,7 @@ package ui
 	//
 	//------------------------------------------------------------------------------
 	import flash.display.MovieClip;
+	import ui.Score;
 	
 	import se.lnu.mediatechnology.stickossdk.core.Session;
 	import se.lnu.mediatechnology.stickossdk.display.IStickOsDisplayObject;
@@ -131,7 +132,7 @@ package ui
 		 *	@return void
 		 * 
 		 */
-		public function set PlayerOne($playerNum:int):void
+		public function PlayerOne($playerNum:int):void
 		{
 			playerOne = new Score($playerNum, _uiBar);
 		}
@@ -145,7 +146,7 @@ package ui
 		 *	@return void
 		 * 
 		 */
-		public function set PlayerTwo($playerNum:int):void
+		public function PlayerTwo($playerNum:int):void
 		{
 			playerTwo = new Score($playerNum, _uiBar);
 		}

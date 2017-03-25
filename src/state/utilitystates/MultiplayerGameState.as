@@ -183,7 +183,7 @@ package state.utilitystates
 		{
 			super.initUI();
 			uiBar.uIBar 		= "multi";
-			uiBar.PlayerTwo 	= 1;
+			uiBar.PlayerTwo(1);
 		}
 		
 		/**
